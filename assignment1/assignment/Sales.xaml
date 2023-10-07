@@ -1,0 +1,25 @@
+﻿<Window x:Class="assignment.Sales"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:assignment"
+        mc:Ignorable="d"
+        Title="Sales" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="AppleTextBox" HorizontalAlignment="Left" Height="38" Margin="283,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Text="0"/>
+        <Label Content="Apple" HorizontalAlignment="Left" Height="28" Margin="185,66,0,0" VerticalAlignment="Top" Width="93" FontSize="14" Background="{x:Null}" Foreground="{x:Null}"/>
+        <TextBox x:Name="CauliflowerTextBox" HorizontalAlignment="Left" Height="38" Margin="283,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Text="0"/>
+        <Label Content="Cauliflower" HorizontalAlignment="Left" Height="28" Margin="176,162,0,0" VerticalAlignment="Top" Width="92" FontSize="14"/>
+        <TextBox x:Name="OrangeTextBox" HorizontalAlignment="Left" Height="38" Margin="283,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Text="0"/>
+        <Label Content="Orange" HorizontalAlignment="Left" Height="28" Margin="185,213,0,0" VerticalAlignment="Top" Width="93" FontSize="14"/>
+        <TextBox x:Name="BlueberryTextBox" HorizontalAlignment="Left" Height="38" Margin="283,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Text="0"/>
+        <Label Content="Blueberry" HorizontalAlignment="Left" Height="28" Margin="185,266,0,0" VerticalAlignment="Top" Width="93" FontSize="14"/>
+        <Button Content="Caiculate" HorizontalAlignment="Left" Margin="309,330,0,0" VerticalAlignment="Top" Click="Button_Click" FontSize="16" Height="39" Width="72"/>
+        <TextBox x:Name="TotalSalesTextBox" HorizontalAlignment="Left" Height="53" Margin="543,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="RaspberryTextBox" HorizontalAlignment="Left" Height="38" Margin="283,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Text="0"/>
+        <Label Content="Raspberry" HorizontalAlignment="Left" Height="28" Margin="166,110,0,0" VerticalAlignment="Top" Width="112" FontSize="14"/>
+        <Label Content="Total lPrice" HorizontalAlignment="Left" Height="36" Margin="543,152,0,0" VerticalAlignment="Top" Width="146" FontSize="14"/>
+        <Button Content="Back" HorizontalAlignment="Left" Height="39" Margin="441,330,0,0" VerticalAlignment="Top" Width="81" FontSize="14" Click="Button_Click_1"/>
+    </Grid>
+</Window>
