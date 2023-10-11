@@ -1,0 +1,33 @@
+﻿<Window x:Class="web.UserCardInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="User Card Info" Height="600" Width="600" Background="#646464">
+    <Grid>
+        <!-- User Card Information -->
+        <DataGrid Name="gvCard" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Select">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox Name="cbSelection" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Card Number" Binding="{Binding cnumber}" />
+                <DataGridTextColumn Header="Password" Binding="{Binding cpassword}" />
+                <DataGridTextColumn Header="Balance" Binding="{Binding balance}" />
+                <DataGridCheckBoxColumn Header="Lost" Binding="{Binding islost}" />
+                <DataGridTextColumn Header="Account Opening Date" Binding="{Binding opendate}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Buttons -->
+        <Button Name="btnLost" Content="Report Lost" Click="btnLost_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,20"/>
+        <Button Name="btnLostOff" Content="Cancel Lost Report" Click="btnLostOff_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="180,0,0,20"/>
+
+        <!-- Link to open a new window for account creation -->
+        <Button Name="btnOpenAccount" Content="Open Account" Click="btnOpenAccount_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="340,0,0,20"/>
+    </Grid>
+</Window>
+
+

@@ -1,0 +1,49 @@
+﻿<Window x:Class="myBnak.CustomerIndex"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myBnak"
+        mc:Ignorable="d"
+        Title="CustomerIndex" Height="450" Width="800">
+    <Grid Height="434" VerticalAlignment="Bottom">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFF7FBB6" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="646*"/>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="53*"/>
+        </Grid.ColumnDefinitions>
+        <RadioButton x:Name="radioTwo" Content="" HorizontalAlignment="Left" Height="32" Margin="59,142,0,0" VerticalAlignment="Top" Width="26" FontSize="14"/>
+        <Button x:Name="Select" Content="Select" HorizontalAlignment="Left" Height="44" Margin="145,338,0,0" VerticalAlignment="Top" Width="175" Click="Button_Click_1" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="90,126,0,0" TextWrapping="Wrap" Text="Transaction" VerticalAlignment="Top" Width="151" FontSize="14" Foreground="#FFEFE3E3">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <Button x:Name="Back" Content="Back" HorizontalAlignment="Left" Height="44" Margin="421,338,0,0" VerticalAlignment="Top" Width="181" FontSize="14" Click="Button_Click"/>
+        <RadioButton x:Name="radioOne" Content="" HorizontalAlignment="Left" Height="32" Margin="59,75,0,0" VerticalAlignment="Top" Width="26" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="90,59,0,0" TextWrapping="Wrap" Text="Bank Account" VerticalAlignment="Top" Width="151" FontSize="14" Foreground="#FFF7F2F2">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <Label Content="Customer Index" HorizontalAlignment="Left" Height="54" Margin="296,10,0,0" VerticalAlignment="Top" Width="283" FontSize="18" Foreground="#FFFBF9F9">
+            <Label.Background>
+                <ImageBrush/>
+            </Label.Background>
+        </Label>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Height="16" Margin="72,0,0,0" VerticalAlignment="Center" Width="0"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Margin="90,196,0,0" TextWrapping="Wrap" Text="New Bank Card" VerticalAlignment="Top" Width="160" Foreground="#FFF1E6E6" FontSize="14">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <RadioButton x:Name="radioTree" Content="" HorizontalAlignment="Left" Height="16" Margin="59,0,0,0" VerticalAlignment="Center" Width="26"/>
+
+    </Grid>
+</Window>

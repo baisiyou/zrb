@@ -1,0 +1,21 @@
+﻿<Window x:Class="YourNamespace.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" Height="Auto" Width="Auto" Background="#646464">
+    <Grid Background="#FFE4E4DD">
+        <!-- Login form -->
+        <StackPanel Margin="100" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Login Username -->
+            <Label Content="Username:" Foreground="White" Background="{x:Null}" FontSize="14"/>
+            <TextBox Name="txtUserName" Margin="0 5 0 10" Width="200"/>
+
+            <!-- Login Password -->
+            <Label Content="Password:" Foreground="White"/>
+            <PasswordBox Name="txtPassword" Margin="0 5 0 10" Width="200"/>
+
+            <!-- Login Button -->
+            <Button Name="buttonLogin" Content="Login" Width="100" Height="30" Click="buttonLogin_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
+

@@ -1,0 +1,66 @@
+﻿<Page x:Class="BankManagementSystem.newAccount"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" d:DesignWidth="300"
+      Title="New Account" Height="254.255">
+
+    <Grid Margin="0,0,0,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <!-- Automatically sized row -->
+            <RowDefinition Height="*"></RowDefinition>
+            <!-- Fill remaining space row -->
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF382AC9" Offset="0"/>
+                    <GradientStop Color="#FFD6F1D0" Offset="1.334"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <!-- Automatically sized column -->
+                <ColumnDefinition Width="*" ></ColumnDefinition>
+                <!-- Fill remaining space column -->
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!-- Automatically sized row -->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!-- Automatically sized row -->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!-- Automatically sized row -->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!-- Automatically sized row -->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!-- Automatically sized row -->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!-- Automatically sized row -->
+                <RowDefinition Height="Auto"></RowDefinition>
+                <!-- Automatically sized row -->
+                <RowDefinition Height="*"></RowDefinition>
+                <!-- Fill remaining space row -->
+            </Grid.RowDefinitions>
+            <TextBlock Text="New User, Welcome!" FontSize="20" TextAlignment="Center" Grid.Row="0" Grid.ColumnSpan="2" Foreground="#FFF9F7F7" ></TextBlock>
+            <TextBlock Margin="7"  Grid.Row="1" Foreground="#FFEEE7E7">Account:</TextBlock>
+            <TextBox Name="txtAccountNo" Margin="5" Grid.Column="1"  Grid.Row="1"></TextBox>
+            <TextBlock Margin="7"  Grid.Row="3" Foreground="#FFF3E9E9">Account Name:</TextBlock>
+            <TextBox Name="txtAccountName" Margin="5" Grid.Column="1"  Grid.Row="3"></TextBox>
+            <TextBlock Margin="7"  Grid.Row="4" Foreground="#FFECE4E4">ID Card Number:</TextBlock>
+            <TextBox Name="txtIDCard" Margin="5" Grid.Column="1"  Grid.Row="4"></TextBox>
+            <TextBlock Margin="7"  Grid.Row="2" Foreground="#FFE2DFDF">Password:</TextBlock>
+            <PasswordBox Name="txtPass" Margin="5" Grid.Column="1"  Grid.Row="2"></PasswordBox>
+            <TextBlock Margin="7"  Grid.Row="6" Foreground="#FFE2DFDF">Account Type:</TextBlock>
+            <ComboBox  Grid.Row="6" Grid.Column="1" Name="comboBoxAccountType" SelectionChanged="comboBoxAccountType_SelectionChanged" Margin="5,0" RenderTransformOrigin="0.477,0.6"></ComboBox>
+            <TextBlock Margin="7"  Grid.Row="5" Foreground="#FFF3EFEF">Account Balance:</TextBlock>
+            <TextBox Name="txtMoney" Margin="5" Grid.Column="1"  Grid.Row="5"></TextBox>
+            <StackPanel Grid.Row="7" HorizontalAlignment="Center" Grid.ColumnSpan="2" Orientation="Horizontal" >
+                <Button Name="btnOk"  Width="50" Margin="10,10,2,10" Padding="3" Click="btnOk_Click">OK</Button>
+                <Button Name="btnCancel"  Width="50" Margin="2,10,10,10" Padding="3" Click="btnCancel_Click">Cancel</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

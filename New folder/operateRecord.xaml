@@ -1,0 +1,33 @@
+﻿<Page x:Class="BankManagementSystem.OperateRecord"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d"
+      Title="Operational Record" Width="629.787" Height="376.808">
+
+    <Grid Margin="0,0,10,0">
+        <StackPanel Margin="0,0,-13,-16" Height="393" VerticalAlignment="Top">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF382AC9" Offset="0"/>
+                    <GradientStop Color="#FFD6F1D0" Offset="1.334"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <DataGrid Grid.Row="0" AutoGenerateColumns="False" Background="#FFDDE4FB" Name="datagrid1"  CanUserAddRows="False" CanUserDeleteRows="False">
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn Header="Operation Time" Width="130"
+                        SortMemberPath="BirthDate"
+                        CellTemplate="{StaticResource DealDateTemplate}" 
+                        />
+                    <DataGridTextColumn Header="Account" Binding="{Binding OAccountNumber}" Width="80" />
+                    <DataGridTextColumn Header="Operation Type" Binding="{Binding OType}" Width="Auto"/>
+                    <DataGridTextColumn Header="Change Amount" Binding="{Binding OAccountChange}" Width="Auto"/>
+                    <DataGridTextColumn Header="Account Balance" Binding="{Binding AccountRemaining}" Width="Auto" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <TextBlock x:Name="textTotal" Text="" Foreground="#FF38CF38" FontSize="10" FontStyle="Italic"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
+
