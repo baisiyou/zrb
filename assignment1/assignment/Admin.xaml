@@ -37,6 +37,6 @@
         </StackPanel>
         <DataGrid x:Name="dataGrid" Grid.Column="1" HorizontalAlignment="Center" Height="114" Grid.Row="2" VerticalAlignment="Center" Width="416" />
         <Label Grid.Column="2" Content="search" HorizontalAlignment="Left" Height="32" Margin="10,30,0,0" VerticalAlignment="Top" Width="49" FontSize="14"/>
-        <TextBox x:Name="search" Grid.Column="2" HorizontalAlignment="Left" Height="32" Margin="72,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="search" Grid.Column="2" HorizontalAlignment="Left" Height="32" Margin="72,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Text=""/>
     </Grid>
 </Window>

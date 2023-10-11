@@ -114,20 +114,30 @@ namespace assignment
             {
                 establishConnect();
                 con.Open();
-                string Query = "Update students set product_name=@product_name, product_id=@product_id, amount=@amount, price=@price";
-                cmd = new NpgsqlCommand(Query, con);
+                string Query = "UPDATE farms SET product_name = @product_name, amount = @amount, price = @price WHERE product_id = @product_id";
+                NpgsqlCommand cmd = new NpgsqlCommand(Query, con);
                 cmd.Parameters.AddWithValue("@product_name", name.Text);
                 cmd.Parameters.AddWithValue("@product_id", int.Parse(id.Text));
                 cmd.Parameters.AddWithValue("@amount", int.Parse(amount.Text));
                 cmd.Parameters.AddWithValue("@price", decimal.Parse(price.Text));
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Update successful");
+                int rowsAffected = cmd.ExecuteNonQuery();
+
+                if (rowsAffected > 0)
+                {
+                    MessageBox.Show("Update successful");
+                }
+                else
+                {
+                    MessageBox.Show("No rows were updated. Please check the product_id.");
+                }
+
                 con.Close();
             }
             catch (NpgsqlException ex)
             {
                 MessageBox.Show(ex.Message);
             }
+
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
