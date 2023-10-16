@@ -1,0 +1,50 @@
+﻿<Window x:Class="myBnak.AdministratorIndex"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:myBnak"
+        mc:Ignorable="d"
+        Title="AdministratorIndex" Height="450" Width="800" Background="{x:Null}" HorizontalAlignment="Right" VerticalAlignment="Top">
+    <Grid Height="434" VerticalAlignment="Bottom">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFF7FBB6" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Height="16" Margin="72,130,0,0" VerticalAlignment="Top" Width="0"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Center" Height="289" VerticalAlignment="Center" Width="780" Background="#FFE8DFDF" />
+        <Button Content="User info management" HorizontalAlignment="Left" Height="32" Margin="35,30,0,0" VerticalAlignment="Top" Width="151" FontSize="14" Foreground="#FFFBF9F9" BorderBrush="{x:Null}" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Card info management" HorizontalAlignment="Left" Height="32" Margin="200,32,0,0" VerticalAlignment="Top" Width="147" FontSize="14" Foreground="#FFF7F0F0" BorderBrush="{x:Null}" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="New User" HorizontalAlignment="Left" Height="28" Margin="370,30,0,0" VerticalAlignment="Top" Width="107" FontSize="14" BorderBrush="#FFEDEBEB" Foreground="#FFF3F1F1" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Review Logs" HorizontalAlignment="Left" Height="28" Margin="660,30,0,0" VerticalAlignment="Top" Width="101" FontSize="14" BorderBrush="#FFEDE8E8" Foreground="#FFEDE5E5" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="New Bank Account" HorizontalAlignment="Left" Height="28" Margin="501,30,0,0" VerticalAlignment="Top" Width="128" FontSize="14" Foreground="#FFF5F3F3" BorderBrush="#FFEFEFEF" Click="Button_Click_4">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
