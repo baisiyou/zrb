@@ -1,0 +1,58 @@
+﻿<Window x:Class="assignment.SaleswithRESTApi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:assignment"
+        mc:Ignorable="d"
+        Title="SaleswithRESTApi" Height="450" Width="800">
+    <Grid x:Name="totalprice">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFF3F7A6" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Apple" HorizontalAlignment="Left" Height="28" Margin="134,24,0,0" VerticalAlignment="Top" Width="93" FontSize="14" Background="{x:Null}" Foreground="#FFF3F0F0"/>
+        <Label Content="Cauliflower" HorizontalAlignment="Left" Height="28" Margin="656,26,0,0" VerticalAlignment="Top" Width="92" FontSize="14" Foreground="#FFEDE6E6" RenderTransformOrigin="0.769,0.668"/>
+        <Label Content="Orange" HorizontalAlignment="Left" Height="28" Margin="289,26,0,0" VerticalAlignment="Top" Width="92" FontSize="14" Foreground="#FFEAEAEA"/>
+        <Label Content="Blueberry" HorizontalAlignment="Left" Height="28" Margin="527,26,0,0" VerticalAlignment="Top" Width="93" FontSize="14" Foreground="#FFECE7E7" RenderTransformOrigin="0.667,0.458"/>
+        <Button Content="Total Price" HorizontalAlignment="Left" Margin="282,352,0,0" VerticalAlignment="Top"  FontSize="16" Height="39" Width="99" Foreground="#FF0E0101" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Label Content="Raspberry" HorizontalAlignment="Left" Height="28" Margin="400,24,0,0" VerticalAlignment="Top" Width="112" FontSize="14" Foreground="#FFF1EBEB" RenderTransformOrigin="0.683,0.466"/>
+        <Label Content="totalprice" HorizontalAlignment="Left" Height="36" Margin="189,292,0,0" VerticalAlignment="Top" Width="146" FontSize="14" Foreground="#FFF9F8F8">
+            <Label.Background>
+                <ImageBrush/>
+            </Label.Background>
+        </Label>
+        <Button Content="Update" HorizontalAlignment="Left" Height="39" Margin="533,346,0,0" VerticalAlignment="Top" Width="81" FontSize="14"  Foreground="#FF270303" Click="Button_Click_1" BorderBrush="Black" Background="{x:Null}"/>
+        <TextBox x:Name="totalprice1" HorizontalAlignment="Left" Height="45" Margin="262,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="applename" HorizontalAlignment="Left" Height="30" Margin="120,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="Apple"/>
+        <TextBox x:Name="appleid" HorizontalAlignment="Left" Height="32" Margin="120,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="124567"/>
+        <TextBox x:Name="appleamount" HorizontalAlignment="Left" Height="32" Margin="120,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="0"/>
+        <TextBox x:Name="appleprice" HorizontalAlignment="Left" Height="32" Margin="120,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="2.10"/>
+        <Label Content="name" HorizontalAlignment="Left" Height="30" Margin="50,69,0,0" VerticalAlignment="Top" Width="65" FontSize="14" Background="{x:Null}" Foreground="#FFEFE9E9"/>
+        <Label Content="id" HorizontalAlignment="Left" Height="35" Margin="50,113,0,0" VerticalAlignment="Top" Width="33" Foreground="#FFEFE6E6" FontSize="14"/>
+        <Label Content="amount" HorizontalAlignment="Left" Height="45" Margin="38,159,0,0" VerticalAlignment="Top" Width="64" Background="{x:Null}" FontSize="14" Foreground="#FFEAE9E9"/>
+        <Label Content="price" HorizontalAlignment="Left" Height="33" Margin="38,217,0,0" VerticalAlignment="Top" Width="77" Background="{x:Null}" FontSize="14" Foreground="#FFEFECEC"/>
+        <TextBox x:Name="orangename" HorizontalAlignment="Left" Height="30" Margin="272,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="Orange"/>
+        <TextBox x:Name="orangeid" HorizontalAlignment="Left" Height="32" Margin="272,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="345678 "/>
+        <TextBox x:Name="orangeamount" HorizontalAlignment="Left" Height="32" Margin="272,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="0"/>
+        <TextBox x:Name="orangeprice" HorizontalAlignment="Left" Height="32" Margin="272,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="2.49"/>
+        <TextBox x:Name="raspberryname" HorizontalAlignment="Left" Height="30" Margin="400,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="Raspberry"/>
+        <TextBox x:Name="raspberryid" HorizontalAlignment="Left" Height="32" Margin="400,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="125678 "/>
+        <TextBox x:Name="raspberryamount" HorizontalAlignment="Left" Height="32" Margin="400,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="0"/>
+        <TextBox x:Name="raspberryprice" HorizontalAlignment="Left" Height="32" Margin="400,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="2.35"/>
+        <TextBox x:Name="blueberryname" HorizontalAlignment="Left" Height="30" Margin="527,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="Blueberry"/>
+        <TextBox x:Name="blueberryid" HorizontalAlignment="Left" Height="32" Margin="527,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.465,0.294" Text="456732"/>
+        <TextBox x:Name="blueberryamount" HorizontalAlignment="Left" Height="32" Margin="527,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="0"/>
+        <TextBox x:Name="blueberryprice" HorizontalAlignment="Left" Height="32" Margin="527,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="1.45"/>
+        <TextBox x:Name="cauliflowername" HorizontalAlignment="Left" Height="30" Margin="655,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="Cauliflower"/>
+        <TextBox x:Name="cauliflowerid" HorizontalAlignment="Left" Height="32" Margin="655,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="238901"/>
+        <TextBox x:Name="caulifloweramount" HorizontalAlignment="Left" Height="32" Margin="656,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="0"/>
+        <TextBox x:Name="cauliflowerprice" HorizontalAlignment="Left" Height="32" Margin="656,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Text="2.22"/>
+    </Grid>
+</Window>
