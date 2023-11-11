@@ -1,0 +1,45 @@
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.exe.config
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.exe
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.pdb
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.AssemblyReference.cache
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\MainWindow.g.cs
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\App.g.cs
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2_MarkupCompile.cache
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2_MarkupCompile.lref
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\MainWindow.baml
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.g.resources
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.Properties.Resources.resources
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.GenerateResource.cache
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.CoreCompileInputs.cache
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.exe
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.pdb
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.AssemblyReference.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\MainWindow.g.cs
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\App.g.cs
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2_MarkupCompile.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2_MarkupCompile.lref
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.exe
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.pdb
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.exe.config
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.exe
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.pdb
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\MainWindow.baml
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.g.resources
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.Properties.Resources.resources
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.GenerateResource.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.CoreCompileInputs.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.exe.config
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.exe
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\bin\Debug\LabProblem2.pdb
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.AssemblyReference.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\MainWindow.g.cs
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\App.g.cs
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2_MarkupCompile.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2_MarkupCompile.lref
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\MainWindow.baml
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.g.resources
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.Properties.Resources.resources
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.GenerateResource.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.csproj.CoreCompileInputs.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.exe
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\assignment3\TestLabProblem2\LabProblem2\LabProblem2\obj\Debug\LabProblem2.pdb

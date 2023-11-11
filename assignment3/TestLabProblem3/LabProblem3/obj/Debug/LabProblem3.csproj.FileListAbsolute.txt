@@ -1,0 +1,34 @@
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\bin\Debug\LabProblem3.exe.config
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\bin\Debug\LabProblem3.exe
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\bin\Debug\LabProblem3.pdb
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.csproj.AssemblyReference.cache
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\MainWindow.g.cs
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\populationPrediction.g.cs
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\PrimeDetection.g.cs
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\App.g.cs
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3_MarkupCompile.cache
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3_MarkupCompile.lref
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\MainWindow.baml
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\populationPrediction.baml
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\PrimeDetection.baml
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.g.resources
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.Properties.Resources.resources
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.csproj.GenerateResource.cache
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.csproj.CoreCompileInputs.cache
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.exe
+C:\Users\yuran\OneDrive\Desktop\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.pdb
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\bin\Debug\LabProblem3.exe.config
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\bin\Debug\LabProblem3.exe
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\bin\Debug\LabProblem3.pdb
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.csproj.AssemblyReference.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\MainWindow.g.cs
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\App.g.cs
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3_MarkupCompile.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3_MarkupCompile.lref
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\MainWindow.baml
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.g.resources
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.Properties.Resources.resources
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.csproj.GenerateResource.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.csproj.CoreCompileInputs.cache
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.exe
+C:\Users\yuran\OneDrive\Desktop\考试\desktop application\Lab1\LabProblem3\LabProblem3\obj\Debug\LabProblem3.pdb
